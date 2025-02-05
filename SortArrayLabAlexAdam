@@ -4,8 +4,6 @@ public class SortArray {
     public static void main(String [] args){
         int [] thisArray = new int []{3, 50, 20, 24, 60};
         sortArray(thisArray, 5);
-
-
     }
     public static void sortArray(int [] myArr, int arrSize){
         int current = 1;
@@ -17,13 +15,8 @@ public class SortArray {
                     holder = myArr[i];
                     myArr[i] = myArr[i + 1];
                     myArr[i + 1]= holder;
-
-
                 }
                 current++;
-                System.out.println(current);
-
-
             }
         }
         System.out.println(Arrays.toString(myArr));
