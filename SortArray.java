@@ -1,13 +1,13 @@
 import java.util.Arrays;
 import java.util.Scanner;
 public class SortArray {
-
+    
     public static void main(String [] args){
         int [] thisArray = new int []{3, 50, 20, 77, 24, 82, 24, 60};
         sortArray(thisArray, 8);
         userIntegration();
-
     }
+    
     public static void sortArray(int [] myArr, int arrSize){
         int current = 1;
         int holder = 0;
@@ -18,15 +18,13 @@ public class SortArray {
                     holder = myArr[i];
                     myArr[i] = myArr[i + 1];
                     myArr[i + 1]= holder;
-
-
                 }
                 current++;
             }
         }
         System.out.println(Arrays.toString(myArr));
     }
-
+    
     public static void userIntegration(){
         Scanner keyboard = new Scanner(System.in);
         int number;
