@@ -1,5 +1,5 @@
 Q. Why did I select this particular sorting algorithm?
-A. I chose this particular sorting algorithm because unfortunately it is the only algorithm that I've learned about. Given the nested for loop, the optimization of this program is very poor, but I hope to be able to optimize perfectly and effectively as I learn more
+A. I chose this particular sorting algorithm because unfortunately it is the only algorithm that I've learned about currently. Given the nested for loop, the optimization of this program is very poor, but I hope to be able to optimize perfectly and effectively as I learn more.
 
 Q. What was my challenges in performing the lab (from design to the implementation phases)?
 A. There weren't many challenges I faced in performing this lab, but I did have some complications as I was creating the sorting algorithm. I hadn't accustomed myself to nested for loop entirely, so it took me some time to figure out the order.
