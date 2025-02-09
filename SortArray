@@ -15,7 +15,6 @@ public class SortArray {
                     myArr[i] = myArr[i + 1];
                     myArr[i + 1]= holder;
                 }
-                current++;
             }
         }
         System.out.println(Arrays.toString(myArr));
